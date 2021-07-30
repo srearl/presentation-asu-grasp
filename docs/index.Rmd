@@ -1,0 +1,95 @@
+---
+title: false
+subtitle: false
+author: false
+date: false
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    css: ["default", "assets/my-theme.css", "libs/remark-css/default-fonts.css"]
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+
+<br>
+<br>
+<br>
+<br>
+
+**reproducible research** <font color=#71A3C3>"is the ability to recompute data analytic results, given an observed data set and knowledge of the data analysis pipeline."<sup>1</sup> 
+
+Replicating studies remains the gold standard for rigorous scientific research, but reproducibility is increasingly viewed as a minimum standard that all scientists should strive toward.<sup>2</sup>
+</font>
+
+.footnote[
+  [1] Peng 2015 [*The reproducibility crisis in science: A statistical counterattack*](https://doi.org/10.1111/j.1740-9713.2015.00827.x)  
+  [2] Alson and Rick 2021 [*A Beginner's Guide to Conducting Reproducible Research*](https://doi.org/10.1002/bes2.1801)
+]
+
+
+???
+
+# reproducible research
+
+---
+class: center
+
+<br>
+<br>
+<br>
+
+<img src="assets/figures/peng_2011.png" width="100%"></img>
+
+.left-footnote[Peng 2011 [*Reproducible Research in Computational Science*](10.1126/science.1213847)]
+
+???
+
+# peng
+
+- including the code is important because it documents the decision-making process
+
+---
+
+**reproducibility for scientific reasons**
+
+given your data, someone else can reproduce your exact results
+
+* increased trustworthiness
+* more rigorous, reliable science
+* learning more from one another's work
+
+"Science should be 'show me', not 'trust me'; it should be 'help me if you can', not 'catch me if you can'."
+
+*-- Philip B. Stark, <a href="https://www.nature.com/articles/d41586-018-05256-0" target="_blank">Nature 2018</a>*
+  
+  
+.footnote[J. Thompson [bit.ly/jlt-rmed2018](bit.ly/jlt-rmed2018)]
+
+???
+
+# reproducibility for scientific reasons
+
+---
+
+**reproducibility for personal reasons**
+
+* Did I mention that subjects with IDs > 100 are actually kangaroos and should be excluded?
+
+* How does that patient have 15 months of treatment when we only followed people for 12 months?
+
+* I won the lottery 👏 - now my coworker is taking over
+
+* Journal reviews back after 8 months! Time for revisions!
+
+  
+.footnote[J. Thompson [bit.ly/jlt-rmed2018](bit.ly/jlt-rmed2018)]
+
+???
+
+# reproducibility for personal reasons
