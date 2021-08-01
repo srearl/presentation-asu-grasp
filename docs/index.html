@@ -14,32 +14,20 @@
 
 
 
-&lt;br&gt;
-&lt;br&gt;
-&lt;br&gt;
-&lt;br&gt;
 
-**reproducible research** &lt;font color=#71A3C3&gt;"is the ability to recompute data analytic results, given an observed data set and knowledge of the data analysis pipeline."&lt;sup&gt;1&lt;/sup&gt; 
+class: middle
 
-Replicating studies remains the gold standard for rigorous scientific research, but reproducibility is increasingly viewed as a minimum standard that all scientists should strive toward.&lt;sup&gt;2&lt;/sup&gt;
-&lt;/font&gt;
+**reproducible research** "is the ability to recompute data analytic results, given an observed data set and knowledge of the data analysis pipeline."
 
-.footnote[
-  [1] Peng 2015 [*The reproducibility crisis in science: A statistical counterattack*](https://doi.org/10.1111/j.1740-9713.2015.00827.x)  
-  [2] Alson and Rick 2021 [*A Beginner's Guide to Conducting Reproducible Research*](https://doi.org/10.1002/bes2.1801)
-]
-
+.footnote[Peng 2015 [*The reproducibility crisis in science: A statistical counterattack*](https://doi.org/10.1111/j.1740-9713.2015.00827.x)]
 
 ???
 
 # reproducible research
 
----
-class: center
 
-&lt;br&gt;
-&lt;br&gt;
-&lt;br&gt;
+---
+class: center, middle
 
 &lt;img src="assets/figures/peng_2011.png" width="100%"&gt;&lt;/img&gt;
 
@@ -47,49 +35,89 @@ class: center
 
 ???
 
-# peng
+# reproducibility spectrum
 
-- including the code is important because it documents the decision-making process
+- including the code is important because it documents the decision-making process Powers and Hampton 2019
+
 
 ---
+class: middle, inverse
+
+Replicating studies remains the gold standard for rigorous scientific research, but reproducibility is increasingly viewed as a **minimum standard** that all scientists should strive toward.
+
+.footnote[Alson and Rick 2021 [*A Beginner's Guide to Conducting Reproducible Research*](https://doi.org/10.1002/bes2.1801)]
+
+
+???
+
+# minimum standard
+
+---
+class: middle
 
 **reproducibility for scientific reasons**
-
-given your data, someone else can reproduce your exact results
 
 * increased trustworthiness
 * more rigorous, reliable science
 * learning more from one another's work
 
-"Science should be 'show me', not 'trust me'; it should be 'help me if you can', not 'catch me if you can'."
-
-*-- Philip B. Stark, &lt;a href="https://www.nature.com/articles/d41586-018-05256-0" target="_blank"&gt;Nature 2018&lt;/a&gt;*
   
-  
-.footnote[J. Thompson [bit.ly/jlt-rmed2018](bit.ly/jlt-rmed2018)]
+.footnote[Thompson 2018 [*The Life &amp; Times of a Reproducible Clinical Project in R*](bit.ly/jlt-rmed2018)]
 
 ???
 
 # reproducibility for scientific reasons
 
 ---
+class: middle
 
 **reproducibility for personal reasons**
 
-* Did I mention that subjects with IDs &gt; 100 are actually kangaroos and should be excluded?
-
-* How does that patient have 15 months of treatment when we only followed people for 12 months?
-
-* I won the lottery 👏 - now my coworker is taking over
-
-* Journal reviews back after 8 months! Time for revisions!
+- helps researchers remember how and why they did *x*
+- enables researches to quickly and simply modify figures, tables, etc.
+- enables quick reconfiguration of previously conducted research tasks
 
   
-.footnote[J. Thompson [bit.ly/jlt-rmed2018](bit.ly/jlt-rmed2018)]
+.footnote[Alson and Rick 2021 [*A Beginner's Guide to Conducting Reproducible Research*](https://doi.org/10.1002/bes2.1801)]
 
 ???
 
 # reproducibility for personal reasons
+
+---
+background-image: url(https://media.giphy.com/media/MEtSuIu6qu0HC/giphy.gif)
+background-position: 50% 50%
+background-size: 50%
+class: inverse
+
+&lt;br&gt;
+&lt;br&gt;
+
+basically, if the thought of redoing your analyses is terrifying then you are doing it wrong  
+&lt;br&gt;
+*J. Bryan*
+
+???
+
+# redoing analyses
+
+---
+class: middle
+
+most basic principle for reproducible research is to **do everything via code**
+
+* downloading data from the web 
+* converting an Excel file to CSV
+* renaming columns or variables 
+* omitting bad samples or data points
+
+*...do all of these programatically*
+
+.footnote[Broman 2016 [*Steps toward reproducible research*](bit.ly/jsm2016)]
+
+???
+
+# everything by code
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
